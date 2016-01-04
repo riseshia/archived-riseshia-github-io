@@ -8,7 +8,7 @@ task :post do
     file = File.join(
         File.dirname(__FILE__),
         '_posts',
-        slug + '.markdown'
+        slug + '.md'
     )
 
     File.open(file, "w") do |f|
@@ -16,7 +16,7 @@ task :post do
         ---
         layout: post
         title: #{title}
-        published: false
+        date: #{DateTime.now.strftime('%Y-%m-%d %T')}
         categories:
         ---
 
