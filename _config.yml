@@ -9,11 +9,11 @@ twitter_username: Re_Shia
 github_username:  riseshia
 
 # Build settings
-sass:
-  style: compressed
-
 markdown: kramdown
 highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed  
 
 paginate: 4
 
