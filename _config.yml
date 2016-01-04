@@ -9,7 +9,7 @@ twitter_username: Re_Shia
 github_username:  riseshia
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 highlighter: pygments
 sass:
   sass_dir: _sass
