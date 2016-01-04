@@ -9,7 +9,10 @@ twitter_username: Re_Shia
 github_username:  riseshia
 
 # Build settings
-markdown: redcarpet
+sass:
+  style: compressed
+
+markdown: kramdown
 highlighter: pygments
 
 paginate: 4
@@ -17,3 +20,4 @@ paginate: 4
 author: Shia
 
 gems: [jekyll-paginate]
+
