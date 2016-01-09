@@ -1,9 +1,9 @@
-   ---
-   layout: post
-   title: Elixir - 03: Basic operators
-   date: 2016-01-10 08:28:34
-   categories:
-   ---
+---
+layout: post
+title: Elixir - 03: Basic operators
+date: 2016-01-10 08:28:34
+categories:
+---
 
 Elixir Tutorial 시리즈입니다. 거의 대부분은 튜토리얼의 한글 번역에 가깝습니다만, 생략되거나 추가로 주석을 달거나 하는 부분이 많습니다. 원문은 최하단의 링크를 참고하세요.
 
