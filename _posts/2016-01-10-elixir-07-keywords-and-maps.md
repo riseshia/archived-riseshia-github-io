@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Elixir - 07: Keywords and maps
+title: "Elixir - 07: Keywords and maps"
 date: 2016-01-10 08:29:55
 categories:
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Elixir - 03: Basic operators
+title: "Elixir - 03: Basic operators"
 date: 2016-01-10 08:28:34
 categories:
 ---
