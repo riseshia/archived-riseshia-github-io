@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Elixir - 02: Base Type
+title: "Elixir - 02: Base Type"
 date: 2016-01-10 08:27:28
 categories:
 ---
