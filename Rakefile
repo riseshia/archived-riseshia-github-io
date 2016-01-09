@@ -12,7 +12,7 @@ task :post do
     )
 
     File.open(file, "w") do |f|
-        f << <<-EOS.gsub(/^     /, '')
+        f << <<-EOS.gsub(/^        /, '')
         ---
         layout: post
         title: #{title}
