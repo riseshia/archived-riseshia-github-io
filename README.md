@@ -5,3 +5,12 @@
 
 ## Etc
 Influenced by https://github.com/thoughtbot/til
+
+# License
+## Contents
+Beer License
+
+## Theme from...
+The MIT License (MIT)
+
+Copyright (c) 2015 Kazuma SATO
