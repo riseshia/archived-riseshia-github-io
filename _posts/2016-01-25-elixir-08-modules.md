@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Elixir - 08: Modules
+title: "Elixir - 08: Modules"
 date: 2016-01-25 11:34:02
 categories:
 ---
