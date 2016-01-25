@@ -15,7 +15,7 @@ task :post do
         f << <<-EOS.gsub(/^        /, '')
         ---
         layout: post
-        title: #{title}
+        title: "#{title}"
         date: #{DateTime.now.strftime('%Y-%m-%d %T')}
         categories:
         ---
