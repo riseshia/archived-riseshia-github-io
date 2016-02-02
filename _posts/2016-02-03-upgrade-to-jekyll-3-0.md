@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Upgrade to Jekyll 3.0"
-date: 2016-02-03 08:40:17
+date: 2016-02-02 23:30:17
 categories:
 ---
 
@@ -35,7 +35,7 @@ collection 관련한 이슈가 발생한다면 위에 있는 Upgrade Guide를 �
 
 ### Syntax-highlighter
 
-pygment를 사용하던 당신! 걱정하실 필요 없습니다. Liquid Tag(`{% highlight %}`)를 사용했다구요? 그래도 문제는 없습니다. 위에서 kramdown을 성공적으로 적용했다면 아무 문제 없을겁니다.
+pygment를 사용하던 당신! 걱정하실 필요 없습니다. Liquid Tag(`{ % highlight % }`)를 사용했다구요? 그래도 문제는 없습니다. 위에서 kramdown을 성공적으로 적용했다면 아무 문제 없을겁니다.
 
 ### Textile??
 
@@ -58,6 +58,30 @@ gems: [jekyll-paginate]
 저는 페이징 잼만 사용하고 있어서 이것만 추가했습니다.
 
 ## Trouble Shooting
+
+### 새 글을 작성했는데 생성이 안돼요.
+
+3.0에서는 `--future` 플래그의 기본값이 `false`으로 변경되었습니다. 아마 이 트랩에 걸리신 경우, 각 포스트의 생성시간이 한국 로컬 시간으로 되어있을 가능성이 높습니다. 포스트의 생성 시각을 utc로 변경해주세요. 예를 들어, 이렇게 말이죠.
+
+```
+---
+layout: post
+title: "Upgrade to Jekyll 3.0"
+date: 2016-02-03 08:30:17
+categories:
+---
+```
+
+```
+---
+layout: post
+title: "Upgrade to Jekyll 3.0"
+date: 2016-02-02 23:30:17
+categories:
+---
+```
+
+별도의 포스트 생성 태스크를 사용하고 계신다면 그 코드도 이에 맞추어 변경해주세요.
 
 ### 로컬에서 잘 보이는데요?
 
