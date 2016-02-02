@@ -9,11 +9,13 @@ twitter_username: Re_Shia
 github_username:  riseshia
 
 # Build settings
-markdown: redcarpet
-highlighter: pygments
+kramdown:
+  input: GFM
+  # syntax_highlighter: rouge
+
 sass:
   sass_dir: _sass
-  style: compressed  
+  style: compressed
 
 paginate: 4
 
