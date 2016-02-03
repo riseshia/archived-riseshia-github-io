@@ -3,7 +3,8 @@ require 'time'
 desc 'create a new draft post'
 task :post do
     title = ENV['TITLE']
-    slug = "#{Date.today}-#{title.downcase.gsub(/[^\w]+/, '-')}"
+    time = Time.now.utc
+    slug = "#{time.strftime('%Y-%m-%d')}-#{title.downcase.gsub(/[^\w]+/, '-')}"
 
     file = File.join(
         File.dirname(__FILE__),
@@ -16,7 +17,7 @@ task :post do
         ---
         layout: post
         title: "#{title}"
-        date: #{DateTime.now.strftime('%Y-%m-%d %T')}
+        date: #{time.strftime('%Y-%m-%d %T')}
         categories:
         ---
 
