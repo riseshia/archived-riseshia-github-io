@@ -20,6 +20,7 @@ categories:
 좀 더 자세한 설명은 [Jekyll 3.0 Upgrade Guide](http://jekyllrb.com/docs/upgrading/2-to-3/)를 참고하면 좋습니다.
 
 ## How-to
+
 ### Change to Kradown
 
 기존에 지원하던 Redcarpet, Rdiscount와 호환 가능하므로 그대로 넘어가시면 됩니다. 지금 당장 넘어가고 싶으시다면 설정(`_config.yml`)에서 명시적으로 사용할 엔진을 지정해주세요.
