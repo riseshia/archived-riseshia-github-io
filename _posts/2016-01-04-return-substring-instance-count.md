@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Return substring instance count - 2"
-date:   2016-01-04 16:52:07 +0900
+title: "Return substring instance count - 2"
+date: 2016-01-04 16:52:07 +0900
 categories: codewars
 ---
 
