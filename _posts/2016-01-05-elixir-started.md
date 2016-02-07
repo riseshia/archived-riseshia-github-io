@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Elixir Started"
-date: 2016-01-05 21:17:49
+date: 2016-01-05 21:17:49 +0900
 categories:
 ---
 

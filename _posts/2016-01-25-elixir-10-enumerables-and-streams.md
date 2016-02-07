@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Elixir - 10: Enumerables and Streams"
-date: 2016-01-25 11:39:19
+date: 2016-01-25 11:39:19 +0900
 categories:
 ---
 

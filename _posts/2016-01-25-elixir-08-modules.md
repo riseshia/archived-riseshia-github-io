@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Elixir - 08: Modules"
-date: 2016-01-25 11:34:02
+date: 2016-01-25 11:34:02 +0900
 categories:
 ---
 

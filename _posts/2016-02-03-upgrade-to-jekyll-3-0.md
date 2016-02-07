@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Upgrade to Jekyll 3.0"
-date: 2016-02-02 23:30:17
+date: 2016-02-02 23:30:17 +0900
 categories:
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Elixir - 04: Pattern matching"
-date: 2016-01-10 08:28:55
+date: 2016-01-10 08:28:55 +0900
 categories:
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Elixir - 06: Binaries, strings and char lists"
-date: 2016-01-10 08:29:39
+date: 2016-01-10 08:29:39 +0900
 categories:
 ---
 

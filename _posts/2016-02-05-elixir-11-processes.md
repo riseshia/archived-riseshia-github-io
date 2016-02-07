@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Elixir - 11: Processes"
-date: 2016-02-05 03:28:10
+date: 2016-02-05 03:28:10 +0900
 categories:
 ---
 

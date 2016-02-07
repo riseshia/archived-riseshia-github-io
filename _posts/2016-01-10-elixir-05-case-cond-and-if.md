@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Elixir - 05: case, cond and if"
-date: 2016-01-10 08:29:20
+date: 2016-01-10 08:29:20 +0900
 categories:
 ---
 
