@@ -83,7 +83,6 @@ iex> "hellö #{:world}"
 ```
 
  * 루비와 마찬가지로 개행을 인식합니다.
- * 
 
 ```iex
 iex> "hello

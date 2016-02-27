@@ -24,8 +24,7 @@ Elixir is a dynamic, functional language designed for building scalable and main
 ## Tooling features
  * [Mix](http://elixir-lang.org/docs/stable/mix/Mix.html) : Build Tool
  * [Hex](https://hex.pm) : Package Manager
- * [IEx]
-(http://elixir-lang.org/docs/stable/iex/IEx.html) : Elixir’s interactive shell
+ * [IEx](http://elixir-lang.org/docs/stable/iex/IEx.html) : Elixir’s interactive shell
  * Erlang compatible
 
 ## How to Install
