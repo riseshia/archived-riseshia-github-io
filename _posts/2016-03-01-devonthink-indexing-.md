@@ -5,6 +5,8 @@ date: 2016-03-01 20:29:49 +0900
 categories:
 ---
 
+이 글은 Christopher MAYO의 [DEVONthink: Indexing デボンシンク： インデックスする](http://www.christopher-mayo.com/?p=2376)를 번역한 글입니다. 오타, 오역이 차고 넘칠 수 있습니다...
+
 [DEVONthink](http://www.devontechnologies.com/products/devonthink/overview.html)는 "인덱싱"이라고 불리는 강력한 기능을 가지고 있는 "[개인 정보 관리자](https://en.wikipedia.org/wiki/List_of_personal_information_managers)" (PIM)입니다. 인덱싱은 다른 앱으로부터도 데이터를 접근가능하게끔 유지하면서 여전히 DEVONthink에도 모든 권한을 사용할 수 있게 해줍니다.
 
 ![Image 01](/images/devonthink/01.png)
