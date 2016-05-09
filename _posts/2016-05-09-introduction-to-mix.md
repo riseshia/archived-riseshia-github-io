@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Introduction to Mix"
+title: "Elixir - OTP: Introduction to Mix"
 date: 2016-05-09 21:09:01 +0900
 categories:
 ---
