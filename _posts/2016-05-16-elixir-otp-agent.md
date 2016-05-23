@@ -5,6 +5,10 @@ date: 2016-05-16 21:45:08 +0900
 categories:
 ---
 
+Elixir Tutorial 시리즈입니다. 거의 대부분은 튜토리얼의 한글 번역에 가깝습니다만, 생략되거나 추가로 주석을 달거나 하는 부분이 많습니다. 원문은 최하단의 링크를 참고하세요.
+
+## OTP: Agent
+
 이 챕터에서는 `KV.Bucket`라는 이름의 모듈을 만들 겁니다. 이 모둘은 키-값 데이터들을 다른 프로세스들에서 읽고, 수정할 수 있도록 하는 책임을 집니다.
 
 만약 튜토리얼 1부를 읽지 않았거나, 오래전에 읽었다면, [Processes](http://elixir-lang.org/getting-started/processes.html)를 읽어 보기를 권장합니다.
@@ -183,4 +187,3 @@ end
 만약 비용이 비싼 작업을 서버에서 실행하게 된다면, 그 작업이 종료될 때까지 다른 요청들은 하염없이 기다려야하며, 몇몇은 클라이언트에게 타임아웃이라는 결과를 돌려줄 수도 있을겁니다.
 
 다음 챕터에서는 클라이언트와 서버의 구분을 좀 더 명확하게 만들어주는 GenServers에 대해서 알아봅니다.
-In the next chapter we will explore GenServers, where the segregation between clients and servers is made even more apparent.
