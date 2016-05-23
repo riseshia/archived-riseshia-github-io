@@ -187,3 +187,7 @@ end
 만약 비용이 비싼 작업을 서버에서 실행하게 된다면, 그 작업이 종료될 때까지 다른 요청들은 하염없이 기다려야하며, 몇몇은 클라이언트에게 타임아웃이라는 결과를 돌려줄 수도 있을겁니다.
 
 다음 챕터에서는 클라이언트와 서버의 구분을 좀 더 명확하게 만들어주는 GenServers에 대해서 알아봅니다.
+
+## Reference
+ * [Elixir Homepage](http://elixir-lang.org)
+ * [Elixir - OTP: Agent](http://elixir-lang.org/getting-started/mix-otp/agent.html)
