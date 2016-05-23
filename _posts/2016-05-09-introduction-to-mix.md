@@ -274,7 +274,6 @@ $ mix help
 
 그럼 코드를 작성해보죠!
 
-
 ## Reference
  * [Elixir Homepage](http://elixir-lang.org)
  * [Introduction to Mix](http://elixir-lang.org/getting-started/mix-otp/introduction-to-mix.html)
