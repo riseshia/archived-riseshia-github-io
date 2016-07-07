@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Distributed tasks and configuration"
+title: "Elixir - OTP: Distributed tasks and configuration"
 date: 2016-07-04 21:16:58 +0900
 categories:
 ---
