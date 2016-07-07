@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Elixir - OTP: Quote and unquote"
+title: "Elixir - Meta: Quote and unquote"
 date: 2016-07-07 21:01:39 +0900
 categories:
 ---

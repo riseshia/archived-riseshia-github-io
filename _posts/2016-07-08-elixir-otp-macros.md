@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Elixir - OTP: Macros"
+title: "Elixir - Meta: Macros"
 date: 2016-07-08 07:42:12 +0900
 categories:
 ---
