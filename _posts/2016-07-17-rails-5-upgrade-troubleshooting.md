@@ -55,7 +55,7 @@ Rails 5에서는 `mysql` Gem에 대한 지원이 끝났고 `mysql2`만을 지원
 
 ### 배포환경에서 `puma`를 사용하는 경우
 
-`bundle exec puma`로는 서버를 기동할 수 없습니다. 그러므로 이러한 경우에는 `Gemfile`에 명시적으로 `gem "puma"`를 추가해주도록 합시다.
+Rails가 기본으로 `puma`를 포함하게 되었지만, `bundle exec puma`로는 서버를 기동할 수 없습니다. 그러므로 이러한 경우에는 `Gemfile`에 명시적으로 `gem "puma"`를 추가해주도록 합시다.
 
 ## Conclusion
 
