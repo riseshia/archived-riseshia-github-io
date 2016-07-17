@@ -5,8 +5,6 @@ date: 2016-07-17 14:29:10 +0900
 categories:
 ---
 
-# Rails 5 Upgrade Troubleshooting
-
 [Rails 5가 릴리스](http://weblog.rubyonrails.org/2016/6/30/Rails-5-0-final/)된 지 대략 2주가 흘렀습니다. 회사에서도 도입하고, 개인 플젝도 하나씩 버전을 올리고 있는 와중에 있었던 상황들에 대한 몇몇 팁들을 정리해보았습니다.
 
 ## Requirement
