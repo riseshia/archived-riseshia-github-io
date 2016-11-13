@@ -46,7 +46,7 @@ Firebase를 백엔드로 사용하는 것을 보았기 때문에 결정내리는
 네. 가져온 결과가 `Object`라는 점만 제외하면 말이죠.
 코드로 보여드리자면,
 
-```javascript
+```
 Object {"1": Object, "2": Object} # => `/days`의 패치 결과
 ```
 
