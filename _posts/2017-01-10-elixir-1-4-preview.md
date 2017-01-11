@@ -11,7 +11,7 @@ categories:
 ## `Registry`
 
 Elixir의 표준 라이브러리에 [`Registry`](http://elixir-lang.org/docs/master/elixir/Registry.html)라는 모듈이 추가되었습니다.
-한 문장으로 간단하게 요약해보자면 '분산되고 확장 가능한 키-값 저장소`입니다.
+한 문장으로 간단하게 요약해보자면 `분산되고 확장 가능한 키-값 저장소`입니다.
 이는 프로세스 이름을 다루거나 디스패쳐, pub-sub 시스템을 간단하게 구현할 수
 있게 해줍니다. Elixir Tutorial을 진행해보았다면, 또는 이와 비슷한 기능을
 구현해보신 적이 있다면 금방 이해하실 수 있을 겁니다. 이전까지였다면 `ets`와
