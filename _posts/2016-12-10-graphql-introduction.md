@@ -192,6 +192,7 @@ query HeroNameAndFriends($episode: Episode) {
     }
   }
 }
+```
 
 ### Directives
 
