@@ -32,7 +32,7 @@ bundle install
 ```ruby
 # config/initializers/omniauth.rb
 
-use OmniAuth::Builder do
+Rails.application.config.middleware.use OmniAuth::Builder do
   provider <provider>, ENV['AUTH_KEY'], ENV['AUTH_SECRET'], scope: 'some_scope'
 end
 ```
@@ -43,7 +43,7 @@ end
 
 ```bash
 bin/rails g model User provider:string uid:string
-bin/rails g model SecureToken user:references uid:token
+bin/rails g model SecureToken user:references token:string
 ```
 
 - 필요한 필드를 추가(i.e. email)
@@ -165,7 +165,7 @@ end
 ```erb
 # app/views/session/new.html.erb
 
-<%= link_to 'Login with Slack', '/auth/slack_signin', data: { turbolinks: false } %>
+<%= link_to 'Login with Your provider', '/auth/your_provider', data: { turbolinks: false } %>
 ```
 
 ```erb
